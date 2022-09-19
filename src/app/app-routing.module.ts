@@ -10,7 +10,7 @@ const routes: Routes = [
   {path: '', component: PorPaisComponent},
   {path: 'region', component: PorRegionComponent},
   {path: 'capital', component: PorCapitalComponent},
-  {path: 'pais/id', component: VerPaisComponent},
+  {path: 'pais/:id', component: VerPaisComponent},
   {path: '**', redirectTo: ''}
 ]
 
